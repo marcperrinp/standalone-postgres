@@ -6,5 +6,5 @@ This is a standalone postgres container with populated data.
 
 Execute the following commands:
 ```
-docker exec -it forest_postgres psql forest_postgres forest
+docker exec -it standalone_postgres psql forest_postgres forest
 ```
