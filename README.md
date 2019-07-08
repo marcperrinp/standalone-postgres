@@ -8,3 +8,9 @@ Execute the following commands:
 ```
 docker exec -it standalone_postgres psql forest_postgres forest
 ```
+
+OR
+
+```
+psql postgres://forest:secret@localhost:5417/forest_postgres
+```
