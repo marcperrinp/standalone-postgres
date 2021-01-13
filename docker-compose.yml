@@ -6,6 +6,7 @@ services:
         image: postgres:11.2
         container_name: standalone_postgres
         working_dir: /docker-entrypoint-initdb.d
+        restart: always
         environment:
             POSTGRES_DB: forest_postgres
             POSTGRES_USER: forest
